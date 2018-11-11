@@ -17,6 +17,7 @@ if(isset($_POST['nombre']) && !empty($_POST['nombre']) &&
     $cedula=$_POST['cedula'];
     $objLogin=new informacionestudiante();
     $objLogin->add_estudiante($cedula,$nombre,$direccion,$telefono,$idjor,$idpro);
+    echo "dato insertado con exito";
 }else{
     echo "Por favor registre todos los campos";
 }
