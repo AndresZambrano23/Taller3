@@ -10,7 +10,7 @@ class informacionestudiante {
         foreach ($res as $row) {
 	    $datos[]=$row;
     }
-    var_dump(json_encode($datos));
+    echo(json_encode($datos));
 	}
 
 	function add_estudiante($cedula,$nombre,$direccion,$telefono,$jornadaid,$programaid){

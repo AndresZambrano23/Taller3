@@ -10,7 +10,7 @@ class informacionprograma {
         foreach ($res as $row) {
 	    $datos[]=$row;
     }
-    var_dump(json_encode($datos));
+    echo(json_encode($datos));
 }
 }
 
